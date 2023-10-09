@@ -1,0 +1,9 @@
+FUNCTION linearSearch(array, value)
+    index <- 0
+    FOR index <-  0  TO array.length-1
+        IF array[index] = value THEN
+            RETURN index
+        ENDIF
+    NEXT
+    RETURN -1
+ENDFUNCTION
